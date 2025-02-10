@@ -10,7 +10,7 @@ from typing import Any, BinaryIO, Dict, List, Optional, Tuple, Union
 
 from tqdm.auto import tqdm
 
-from huggingface_hub import hf_hub_url, cached_download
+from huggingface_hub import hf_hub_url, hf_hub_download as cached_download
 
 WEIGHTS_NAME = 'pytorch_model.pt'
 WEIGHTS_NAME_SCALE = 'pytorch_model_{scale}x.pt'
